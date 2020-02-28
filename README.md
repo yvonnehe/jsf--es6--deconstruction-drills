@@ -1,19 +1,10 @@
 # Task
 
+Practice converting from standard way to get properties from objects to using object deconstruction.
 
+1. You will perform the same action as is done in the `// standard` section, but using deconstruction.
+2. The first one has been done for you.
+3. Write your answer in the `// deconstruction` section.
+4. The top half is object deconstruction and the bottom half is parameter deconstruction.
 
-**Note:** Styles are provided for you in master.css. Look in the file to find the approriate class names to use on your HTML elements.
-
-### Example
-
-[The example is here](https://link).
-
-## Task
-
-Clone or download this repository onto your computer.  You will start out in the "master" branch which contains an empty project.
-
-Try to recreate the website above.  Firstly, try to create it without any help.  If you are unsure of what to do, you can follow the steps below.  If the steps don't help, checkout out the "answer" branch from this repository.  The answer branch contains a working example.
-
-## Steps
-
-1. 
+**Note:** there is no output for this task, you simply need to convert from one style of code to the other.
