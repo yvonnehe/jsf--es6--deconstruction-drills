@@ -88,7 +88,6 @@ function testFunction(obj) {
 }
 // desconstruct
 function testFunction({ name }) {
-    var {name} = obj;
     // function code...
 }
 
@@ -109,8 +108,8 @@ function testFunction(obj) {
     // function code...
 }
 // desconstruct
-function testFunction(obj) {
-    var {name, age, job} = obj;
+function testFunction({name, age, job}) {
+    
 }
 
 
@@ -129,8 +128,8 @@ function testFunction(obj) {
     // function code...
 }
 // desconstruct
-function testFunction(obj) {
-    var {name, job} = obj;
+function testFunction({name, job}) {
+
 }
 
 
@@ -153,8 +152,8 @@ function testFunction(apiResult) {
     // function code...
 }
 // desconstruct
-function testFunction(apiResult) {
-    var {articles, errorMessage, timeStamp} = apiResult;
+function testFunction({articles, errorMessage, timeStamp}) {
+
 }
 
 
@@ -175,6 +174,6 @@ function testFunction(apiResult) {
     // function code...
 }
 // desconstruct
-function testFunction(apiResult) {
-    var {articles, errorMessage} = apiResult; 
+function testFunction({articles, errorMessage}) {
+ 
 }
